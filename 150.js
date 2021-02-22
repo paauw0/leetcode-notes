@@ -1,6 +1,5 @@
-
 /*
- * 150. 逆波兰表达式求值
+ * 150. 逆波兰表达式求值 https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
  */
 
 /*
@@ -38,6 +37,6 @@ var evalRPN = function(tokens) {
         }
     }
     return stack[0]
-}
+};
 
 console.log(evalRPN(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))
